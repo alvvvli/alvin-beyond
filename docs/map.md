@@ -1,5 +1,3 @@
-# Global Mobility Network
-
 An interactive record of places I've lived, studied, worked and travelled, and the routes connecting them. The network combines intercontinental flights with regional rail, road and ferry journeys.
 
 <iframe src="../mobility-map.html" title="Global Mobility Network — interactive travel routes" width="100%" height="760" loading="lazy" style="border:0;border-radius:12px;background:#10251c" allowfullscreen></iframe>

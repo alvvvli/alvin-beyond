@@ -30,9 +30,19 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
 extra:
+  alternate:
+    - name: alkanmuri · Personal Atlas
+      link: https://alvvvli.github.io/alvin-beyond/
+      lang: en
+
+    - name: Alvin Li · Engineering
+      link: https://alvvvli.github.io/alvin-site/
+      lang: en-US
+
   social:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/alkanmuri/
+
 extra_css:
   - assets/embeds.css
   - assets/navy-bg.css

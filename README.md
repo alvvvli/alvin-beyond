@@ -1,4 +1,4 @@
-# alkanmuri (Alvin Li)
+# alkanmuri
 
 A companion travel and experiences site built with Material for MkDocs.
 

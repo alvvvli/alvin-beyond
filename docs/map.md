@@ -1,5 +1,3 @@
-An interactive record of places I've lived, studied, worked and travelled, and the routes connecting them. The network combines intercontinental flights with regional rail, road and ferry journeys.
-
 <iframe src="../mobility-map.html" title="Global Mobility Network — interactive travel routes" width="100%" height="760" loading="lazy" style="border:0;border-radius:12px;background:#10251c" allowfullscreen></iframe>
 
 <small>Interactive map · OpenStreetMap / Leaflet · Select a location to explore connections and linked travel journals.</small>
@@ -16,5 +14,3 @@ The map preserves the original mobility network's routes and locations, includin
 - [Iceland 2023 — Winter Landscapes](travels/iceland-2023.md)
 - [Finland & Estonia 2024](travels/finland-estonia-2024.md)
 - [Browse all continents](travels/index.md)
-
-*An ongoing collection, updated as I go.*

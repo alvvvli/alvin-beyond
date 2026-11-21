@@ -1,3 +1,4 @@
+<style>
 /* Two-column About layout */
 .hero {
   display: grid;

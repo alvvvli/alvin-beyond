@@ -133,12 +133,6 @@
     />
 
     <img
-      src="/alvin-beyond/JPG_VID/WhatsApp%20Image%202026-11-21%20at%2018.44.49.jpeg"
-      alt="Motorsport experience"
-      loading="lazy"
-    />
-
-    <img
       src="/alvin-beyond/JPG_VID/WhatsApp%20Image%202026-11-21%20at%2018.44.50.jpeg"
       alt="Outdoor activities"
       loading="lazy"

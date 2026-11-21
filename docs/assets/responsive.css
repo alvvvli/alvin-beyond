@@ -113,3 +113,71 @@
   }
 }
 
+
+/* =========================================
+   ALKANMURI — ABOUT PAGE
+   ========================================= */
+
+/* Desktop */
+.md-typeset .hero:has(.hero-images) {
+  display: grid;
+  grid-template-columns: minmax(0, 250px) minmax(0, 1fr);
+  align-items: start;
+  gap: 28px;
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+.md-typeset .hero-images {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+.md-typeset .hero-images img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.md-typeset .hero-text-card {
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+/* Tablet: reduce the image column */
+@media (max-width: 900px) {
+  .md-typeset .hero:has(.hero-images) {
+    grid-template-columns: minmax(0, 210px) minmax(0, 1fr);
+    gap: 20px;
+  }
+}
+
+/* Phone: images above the introduction */
+@media (max-width: 600px) {
+  .md-typeset .hero:has(.hero-images) {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+  }
+
+  .md-typeset .hero-images {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .md-typeset .hero-images img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .md-typeset .hero-text-card {
+    width: 100%;
+    padding: 20px;
+  }
+}

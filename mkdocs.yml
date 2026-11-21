@@ -1,0 +1,73 @@
+site_name: Alvin | Beyond Engineering
+site_description: Travel, sport, food and experiences — a personal atlas.
+site_url: https://alvvvli.github.io/alvin-beyond/
+repo_url: https://github.com/alvvvli/alvin-beyond
+repo_name: alvvvli/alvin-beyond
+use_directory_urls: true
+theme:
+  name: material
+  font:
+    text: IBM Plex Sans
+    code: IBM Plex Mono
+  palette:
+    scheme: slate
+    primary: green
+    accent: light green
+  features:
+    - navigation.tabs
+    - navigation.tracking
+    - content.code.copy
+    - content.action.edit
+    - search.suggest
+  logo: assets/yomori-512.png
+  favicon: assets/yomori-512.png
+plugins:
+  - search
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/alvin-li-596a3316a/
+extra_css:
+  - assets/embeds.css
+  - assets/navy-bg.css
+  - assets/custom.css
+extra_javascript:
+  - assets/js/site.js
+nav:
+  - Home: index.md
+  - Travels:
+      - Overview: travels/index.md
+      - Europe: travels/europe.md
+      - Iceland Winter 2023: travels/iceland-2023.md
+      - Finland & Estonia 2024: travels/finland-estonia-2024.md
+      - Asia: travels/asia.md
+      - Japan 2024: travels/japan-2024.md
+      - North America: travels/north-america.md
+      - South America: travels/south-america.md
+      - Africa: travels/africa.md
+      - Middle East: travels/middle-east.md
+      - Oceania: travels/oceania.md
+  - Sports & Activities:
+      - Overview: sports/index.md
+      - Activities Journal: sports/activities.md
+      - Stadiums & Matches: sports/stadiums.md
+  - Food & Dining:
+      - Overview: food/index.md
+      - Food Journal: food/journal.md
+  - Events & Experiences:
+      - Overview: events/index.md
+      - Formula 1: events/formula-1.md
+      - Concerts & Music: events/concerts.md
+      - National Team Friendlies: events/football.md
+      - Exhibitions & Other Events: events/exhibitions.md
+  - Travel Map: map.md
+  - Reflections: reflections.md
+  - About: about.md

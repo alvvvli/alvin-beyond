@@ -1,0 +1,8 @@
+/* Companion site overrides; retained filename from alvin-site. */
+@import url("css/custom.css");
+
+/* Narumi Gen companion-site identity */
+.narumi-hero { display:grid; grid-template-columns:minmax(160px, 240px) minmax(0, 1fr); align-items:center; gap:1.5rem; margin:1rem 0 2rem; }
+.narumi-hero .hero { margin:0; }
+.narumi-hero-image { width:100%; aspect-ratio:1; object-fit:cover; border-radius:16px; border:2px solid rgba(102,187,106,.42); box-shadow:0 12px 32px rgba(0,0,0,.22); }
+@media(max-width:720px) { .narumi-hero {grid-template-columns:1fr;} .narumi-hero-image {max-width:220px;} }

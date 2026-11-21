@@ -1,5 +1,4 @@
-
-# Food Dump
+# 🔥 Food Dump
 
 A photographic record of meals, snacks, cafés, street food and occasional discoveries along the way.
 

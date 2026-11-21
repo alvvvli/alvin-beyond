@@ -50,7 +50,7 @@ extra_css:
 extra_javascript:
   - assets/js/site.js
 nav:
-  - Home: index.md
+  - 🏠: index.md
   - 🌍Travel Atlas:
       - Overview: travels/index.md
       - Europe: travels/europe.md

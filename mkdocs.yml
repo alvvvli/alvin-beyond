@@ -47,6 +47,8 @@ extra_css:
   - assets/embeds.css
   - assets/navy-bg.css
   - assets/custom.css
+  - assets/responsive.css
+  
 extra_javascript:
   - assets/js/site.js
 nav:

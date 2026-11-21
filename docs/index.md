@@ -1,25 +1,35 @@
 
 <style>
 /* =========================================
-   HOMEPAGE HERO
+   HOMEPAGE HERO — TRANSPARENT LAYOUT
    ========================================= */
 
 .hero {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 22px;
+  gap: 20px;
   width: 100%;
   max-width: 960px;
   margin: 0 auto 28px;
+  padding: 0 !important;
+  background: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
   text-align: center;
   font-family: "IBM Plex Sans", sans-serif;
 }
 
-/* Hero image */
+/* =========================================
+   HERO IMAGE
+   ========================================= */
+
 .hero__imgbox {
   width: 100%;
   text-align: center;
+  background: transparent !important;
 }
 
 .hero__img {
@@ -35,11 +45,11 @@
 /* Image attribution */
 .hero__caption,
 .hero__imgbox p.hero__caption {
+  margin: 8px 0 0;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 12px;
   line-height: 1.5;
   color: #9bbcae;
-  margin: 8px 0 0;
   text-align: center;
 }
 
@@ -47,6 +57,10 @@
   color: #a5dfbf;
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+
+.hero__caption a:hover {
+  color: #d4f5e1;
 }
 
 /* =========================================
@@ -57,6 +71,11 @@
   width: 100%;
   max-width: 700px;
   min-width: 0;
+  padding: 0 !important;
+  background: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
   text-align: left;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 16px;
@@ -64,16 +83,16 @@
 }
 
 .hero__body p {
+  margin: 0 0 14px;
   font-size: 16px;
   line-height: 1.65;
-  margin: 0 0 14px;
 }
 
 /* Intro heading */
 .hero__body p:first-child {
+  margin-bottom: 18px;
   font-size: 21px;
   line-height: 1.35;
-  margin-bottom: 18px;
 }
 
 .hero__body p:first-child strong {
@@ -81,20 +100,24 @@
   font-weight: 700;
 }
 
+.hero__body p:last-child {
+  margin-bottom: 0;
+}
+
 /* =========================================
    LIST FORMATTING
    ========================================= */
 
 .hero__body ul {
-  padding-left: 22px;
   margin: 16px 0;
+  padding-left: 22px;
   list-style-position: outside;
 }
 
 .hero__body li {
+  margin-bottom: 10px;
   font-size: 16px;
   line-height: 1.6;
-  margin-bottom: 10px;
 }
 
 .hero__body li strong {
@@ -117,7 +140,7 @@
 
 @media (max-width: 900px) {
   .hero {
-    gap: 20px;
+    gap: 18px;
   }
 
   .hero__body {
@@ -142,9 +165,9 @@
 
   .hero__body {
     width: 100%;
-    text-align: left;
     font-size: 15px;
     line-height: 1.6;
+    text-align: left;
   }
 
   .hero__body p,
@@ -172,7 +195,9 @@
 
 <div class="hero">
 
+  <!-- Character image and attribution -->
   <div class="hero__imgbox">
+
     <img
       src="assets/yomori-512.png"
       alt="Character illustration from Kaiju No. 8"
@@ -187,8 +212,10 @@
         rel="noopener noreferrer"
       >Kaiju No. 8 — Official Website</a>
     </p>
+
   </div>
 
+  <!-- Personal atlas introduction -->
   <div class="hero__body">
 
     <p>

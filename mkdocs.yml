@@ -1,8 +1,6 @@
 site_name: alkanmuri
 site_description: Travel, sport, food and experiences — a personal atlas.
 site_url: https://alvvvli.github.io/alvin-beyond/
-repo_url: https://github.com/alvvvli/alvin-beyond
-repo_name: alvvvli/alvin-beyond
 use_directory_urls: true
 theme:
   name: material

@@ -70,11 +70,10 @@ nav:
       - 🔥Food Dump: food/dump.md
       - 🍽️Food Reels: food/reels.md
   - 🏁Flagship Atlas:
-      - Overview: events/index.md
-      - Formula 1: events/formula-1.md
-      - Concerts & Music: events/concerts.md
-      - National Team Friendlies: events/football.md
-      - Exhibitions & Other Events: events/exhibitions.md
+      - 🎩Flagship Reels: events/freels.md
+      - 🏎️Formula 1: events/formula-1.md
+      - 🎵Concerts & Music: events/concerts.md
+      - 📢Exhibitions & Other Events: events/exhibitions.md
   - 🗺️Travel Map: map.md
   - 🌊Reflections: reflections.md
   - 👀About: about.md

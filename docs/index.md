@@ -25,6 +25,5 @@
       <li><strong>Activities &amp; Experiences:</strong> Running, skiing, outdoor excursions, food discoveries, concerts, motorsport, and football.</li>
       <li><strong>Personal Archive:</strong> A growing collection of images, videos, event notes, and reflections, organised by place and occasion.</li>
     </ul>
-    <p>For engineering projects and technical work, see my <a href="https://alvvvli.github.io/alvin-site/">engineering portfolio</a>.</p>
   </div>
 </div>

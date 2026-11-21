@@ -51,7 +51,7 @@ extra_javascript:
   - assets/js/site.js
 nav:
   - Home: index.md
-  - Travel Atlas:
+  - 🌍Travel Atlas:
       - Overview: travels/index.md
       - Europe: travels/europe.md
       - Iceland Winter 2023: travels/iceland-2023.md
@@ -63,19 +63,19 @@ nav:
       - Africa: travels/africa.md
       - Middle East: travels/middle-east.md
       - Oceania: travels/oceania.md
-  - Sports Atlas:
+  - ⚽Sports Atlas:
       - Overview: sports/index.md
       - Activities Journal: sports/activities.md
       - Stadiums & Matches: sports/stadiums.md
-  - Food Atlas:
+  - 🍘Food Atlas:
       - 🔥Food Dump: food/dump.md
-      - Food Journal: food/journal.md
-  - Flagship Atlas:
+      - 🍽️Food Journal: food/journal.md
+  - 🏁Flagship Atlas:
       - Overview: events/index.md
       - Formula 1: events/formula-1.md
       - Concerts & Music: events/concerts.md
       - National Team Friendlies: events/football.md
       - Exhibitions & Other Events: events/exhibitions.md
-  - Travel Map: map.md
-  - Reflections: reflections.md
-  - About: about.md
+  - 🗺️Travel Map: map.md
+  - 🌊Reflections: reflections.md
+  - 👀About: about.md

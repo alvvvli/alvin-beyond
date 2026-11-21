@@ -1,22 +1,15 @@
 
 <style>
-/* =========================================
-   ABOUT PAGE HERO
-   ========================================= */
 
 .hero {
   display: grid;
-  grid-template-columns: 210px minmax(0, 1fr);
+  grid-template-columns: 250px minmax(0, 1fr);
   align-items: start;
   gap: 28px;
   width: 100%;
   max-width: 960px;
   margin: 0 auto 28px;
 }
-
-/* =========================================
-   IMAGE COLUMN
-   ========================================= */
 
 .hero-images {
   display: flex;
@@ -105,10 +98,9 @@
 /* =========================================
    TABLET
    ========================================= */
-
 @media (max-width: 900px) {
   .hero {
-    grid-template-columns: 180px minmax(0, 1fr);
+    grid-template-columns: 210px minmax(0, 1fr);
     gap: 20px;
   }
 }

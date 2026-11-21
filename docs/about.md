@@ -1,6 +1,9 @@
 
 <style>
-/* About page hero */
+/* =========================================
+   ABOUT PAGE HERO
+   ========================================= */
+
 .hero {
   display: grid;
   grid-template-columns: 210px minmax(0, 1fr);
@@ -11,7 +14,10 @@
   margin: 0 auto 28px;
 }
 
-/* Image column */
+/* =========================================
+   IMAGE COLUMN
+   ========================================= */
+
 .hero-images {
   display: flex;
   flex-direction: column;
@@ -27,23 +33,45 @@
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
 }
 
-/* Text column */
+/* =========================================
+   TEXT COLUMN
+   ========================================= */
+
 .hero-text {
   min-width: 0;
   text-align: left;
-  line-height: 1.7;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
 }
 
 .hero-text p {
-  margin: 0 0 16px;
+  font-size: 16px;
+  line-height: 1.65;
+  margin: 0 0 14px;
 }
 
+/* Intro heading: "I'm Alvin." */
 .hero-text p:first-child {
-  font-size: 1.25rem;
+  font-size: 21px;
+  line-height: 1.35;
   margin-bottom: 18px;
 }
 
-/* Green badge pills */
+.hero-text p:first-child strong {
+  font-size: inherit;
+  font-weight: 700;
+}
+
+/* Prevent excessive spacing at bottom */
+.hero-text p:last-child {
+  margin-bottom: 0;
+}
+
+/* =========================================
+   GREEN BADGE PILLS
+   ========================================= */
+
 .badge-cluster {
   display: flex;
   flex-wrap: wrap;
@@ -60,15 +88,24 @@
   font-size: 0.78rem;
   font-family: "IBM Plex Mono", monospace;
   white-space: nowrap;
-  transition: background 0.2s, border-color 0.2s;
+  transition:
+    background 0.2s,
+    border-color 0.2s,
+    color 0.2s,
+    transform 0.2s;
 }
 
 .badge-cluster span:hover {
   background: rgba(46, 125, 91, 0.32);
   border-color: #81c995;
+  color: #d2f5df;
+  transform: translateY(-1px);
 }
 
-/* Tablet */
+/* =========================================
+   TABLET
+   ========================================= */
+
 @media (max-width: 900px) {
   .hero {
     grid-template-columns: 180px minmax(0, 1fr);
@@ -76,10 +113,13 @@
   }
 }
 
-/* Mobile */
+/* =========================================
+   MOBILE
+   ========================================= */
+
 @media (max-width: 600px) {
   .hero {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 22px;
   }
 
@@ -99,12 +139,28 @@
   .hero-text {
     width: 100%;
     text-align: left;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .hero-text p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 13px;
+  }
+
+  .hero-text p:first-child {
+    font-size: 20px;
   }
 
   .badge-cluster {
     justify-content: flex-start;
   }
 }
+
+/* =========================================
+   SMALL MOBILE
+   ========================================= */
 
 @media (max-width: 400px) {
   .hero-images img {

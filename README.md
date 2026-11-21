@@ -1,4 +1,4 @@
-# Alvin | Beyond Engineering
+# alkanmuri (Alvin Li)
 
 A companion travel and experiences site built with Material for MkDocs.
 

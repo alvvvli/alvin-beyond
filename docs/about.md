@@ -151,38 +151,44 @@
 
     <div class="hero-text">
 
-      <p><strong>I'm Alvin.</strong></p>
+     
+    <p><strong>I'm Alvin.</strong></p>
+    
+    <p>
+      Originally from Taiwan, I've spent much of my life
+      moving between Asia, Europe and North America —
+      studying, working, travelling and finding reasons
+      to explore somewhere new.
+    </p>
+    
+    <p>
+      I've never been particularly interested in following
+      a fixed itinerary, whether in travel or in life.
+      Sometimes that means crossing borders by train,
+      spending an afternoon somewhere unfamiliar, or
+      making a detour simply because something caught
+      my attention. Other times, it's attending a major
+      sporting event, getting out on the water, or
+      discovering a place worth returning to.
+    </p>
+    
+    <p>
+      I enjoy the contrast between big cities and quieter
+      corners, familiar routines and unexpected experiences.
+      Railways, aviation, sport, music, food and the everyday
+      character of different places have all given me
+      plenty of reasons to keep exploring.
+    </p>
+    
+    <p>
+      This site is a personal atlas of those experiences —
+      not a checklist of destinations, but a collection
+      of places, moments and journeys I've found
+      worth remembering.
+    </p>
 
-      <p>
-        Originally from Taiwan, with much of my life spent
-        moving between Asia, Europe and North America.
-      </p>
+</div>
 
-      <p>
-        Over the years, I've had the opportunity to live,
-        study and work in different places, with plenty
-        of independent journeys in between. Some trips
-        have taken me to major cities and international
-        events; others have involved quieter excursions,
-        unfamiliar train routes, local restaurants and
-        places I simply wanted to see for myself.
-      </p>
-
-      <p>
-        Outside of travelling, I enjoy running, cycling,
-        skiing, sailing and exploring different sports.
-        I'm also keen on football, Formula 1, live music
-        and trying local food wherever I happen to be.
-      </p>
-
-      <p>
-        This site brings together a selection of those
-        experiences, from sporting events and concerts
-        to everyday discoveries, photographs and
-        journeys worth remembering.
-      </p>
-
-    </div>
 
   </div>
 </div>

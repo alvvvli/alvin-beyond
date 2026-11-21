@@ -68,9 +68,8 @@ nav:
       - Activities Journal: sports/activities.md
       - Stadiums & Matches: sports/stadiums.md
   - Food Atlas:
-      - Overview: food/index.md
+      - 🔥Food Dump: food/dump.md
       - Food Journal: food/journal.md
-      - Food Dump: food/dump.md
   - Flagship Atlas:
       - Overview: events/index.md
       - Formula 1: events/formula-1.md

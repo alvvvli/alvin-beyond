@@ -93,7 +93,7 @@
 <div class="hero-images">
 <img src="/alvin-beyond/JPG_VID/sail1.jpeg">
 <img src="/alvin-beyond/JPG_VID/WhatsApp Image 2026-11-21 at 18.44.48 (1).jpeg">
-<img src="/alvin-beyond/JPG_VID/WhatsApp Image 2026-11-21 at 18.44.50">
+<img src="/alvin-beyond/JPG_VID/WhatsApp Image 2026-11-21 at 18.44.50.jpeg">
 </div>
 
 <div class="hero-text">

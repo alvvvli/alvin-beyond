@@ -51,7 +51,7 @@ extra_javascript:
   - assets/js/site.js
 nav:
   - Home: index.md
-  - Travels:
+  - Travel Atlas:
       - Overview: travels/index.md
       - Europe: travels/europe.md
       - Iceland Winter 2023: travels/iceland-2023.md
@@ -63,14 +63,14 @@ nav:
       - Africa: travels/africa.md
       - Middle East: travels/middle-east.md
       - Oceania: travels/oceania.md
-  - Sports & Activities:
+  - Sports Atlas:
       - Overview: sports/index.md
       - Activities Journal: sports/activities.md
       - Stadiums & Matches: sports/stadiums.md
-  - Food & Dining:
+  - Food Atlas:
       - Overview: food/index.md
       - Food Journal: food/journal.md
-  - Events & Experiences:
+  - Flagship Atlas:
       - Overview: events/index.md
       - Formula 1: events/formula-1.md
       - Concerts & Music: events/concerts.md

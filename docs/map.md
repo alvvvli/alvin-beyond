@@ -1,18 +1,22 @@
-# Global Mobility Map
+# Global Mobility Network
 
-An interactive record of places I've visited, with **documented visits**, **additional personal records**, and **connections requiring confirmation** shown separately. Markers are approximate reference locations, **not GPS tracks or precise visit coordinates**.
+An interactive record of places I've lived, studied, worked and travelled, and the routes connecting them. The network combines intercontinental flights with regional rail, road and ferry journeys.
 
-<div class="map-controls"><label for="continent-select">Region</label><select id="continent-select"><option value="all">All regions</option></select><label for="status-select">Evidence</label><select id="status-select"><option value="all">All records</option><option value="documented">JYZ-documented</option><option value="other">Additional record</option><option value="transit">Connection / unconfirmed entry</option></select><input id="place-search" type="search" placeholder="Search country or place" aria-label="Search places" /></div>
-<div id="travel-map" role="application" aria-label="Interactive travel map"></div>
-<p class="journal-meta" id="map-count" aria-live="polite"></p>
-<div id="map-list" class="map-directory"></div>
+<iframe src="../mobility-map.html" title="Global Mobility Network — interactive travel routes" width="100%" height="760" loading="lazy" style="border:0;border-radius:12px;background:#10251c" allowfullscreen></iframe>
 
-!!! info "How this map is maintained"
-    This map uses OpenStreetMap tiles through Leaflet, with no API key. The map needs an internet connection to load its tiles. All travel entries are stored in `docs/assets/data/travel-places.json`; update that file to add or correct a location. Airport-only connections are not automatically counted as country visits.
+<small>Interactive map · OpenStreetMap / Leaflet · Select a location to explore connections and linked travel journals.</small>
 
-!!! note "Privacy"
-    Locations are approximate city or regional reference points. Private accommodation addresses, confirmation codes, flight booking identifiers and personal contact details are not published.
+## Along the Way
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyo1vQ9pP0N2j5Q=" crossorigin="anonymous">
-<script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="anonymous"></script>
-<script defer src="../assets/js/travel-map.js"></script>
+Taiwan, California, the Netherlands, Denmark and Singapore have been recurring bases. Other journeys have taken shape around exchanges, conferences, industrial visits, sport and independent exploration.
+
+The map preserves the original mobility network's routes and locations, including records outside the primary JYZ itinerary. **A route or airport stop does not necessarily establish entry into a country.** Istanbul and Hong Kong are identified as transit-only in the source; Prague is documented as a station stop. Some network links are simplified representations of travel segments rather than exact GPS tracks.
+
+### Travel journals
+
+- [Japan 2024 — Tokyo, Hokkaido & Tōhoku](travels/japan-2024.md)
+- [Iceland 2023 — Winter Landscapes](travels/iceland-2023.md)
+- [Finland & Estonia 2024](travels/finland-estonia-2024.md)
+- [Browse all continents](travels/index.md)
+
+*An ongoing collection, updated as I go.*

@@ -1,17 +1,69 @@
-/* Companion site overrides; retained filename from alvin-site. */
+
+/* =========================================
+   ALKANMURI — CUSTOM STYLESHEET
+   Material for MkDocs
+   ========================================= */
+
+/* Retain existing companion-site styling */
 @import url("css/custom.css");
 
-/* Narumi Gen companion-site identity */
-.narumi-hero { display:grid; grid-template-columns:minmax(160px, 240px) minmax(0, 1fr); align-items:center; gap:1.5rem; margin:1rem 0 2rem; }
-.narumi-hero .hero { margin:0; }
-.narumi-hero-image { width:100%; aspect-ratio:1; object-fit:cover; border-radius:16px; border:2px solid rgba(102,187,106,.42); box-shadow:0 12px 32px rgba(0,0,0,.22); }
-@media(max-width:720px) { .narumi-hero {grid-template-columns:1fr;} .narumi-hero-image {max-width:220px;} }
+/* =========================================
+   1. SITE COLOUR IDENTITY
+   ========================================= */
 
-/* Replace language selector icon with a site-switching icon */
+:root {
+  --alkanmuri-header: #1d795b;
+  --alkanmuri-accent: #81d6aa;
+}
+
+/* =========================================
+   2. NARUMI HERO
+   ========================================= */
+
+.narumi-hero {
+  display: grid;
+  grid-template-columns:
+    minmax(160px, 240px)
+    minmax(0, 1fr);
+  align-items: center;
+  gap: 1.5rem;
+  margin: 1rem 0 2rem;
+}
+
+.narumi-hero .hero {
+  margin: 0;
+}
+
+.narumi-hero-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 2px solid rgba(102, 187, 106, 0.42);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.22);
+}
+
+@media (max-width: 720px) {
+  .narumi-hero {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .narumi-hero-image {
+    max-width: 220px;
+  }
+}
+
+/* =========================================
+   3. WEBSITE SWITCHER ICON
+   ========================================= */
+
+/* Hide the original language-selector icon */
 .md-header__option .md-icon svg {
   display: none;
 }
 
+/* Display the bidirectional site-switching symbol */
 .md-header__option .md-icon::before {
   content: "⇄";
   display: inline-block;
@@ -21,42 +73,53 @@
   color: inherit;
 }
 
+/* Compact switcher on mobile */
+@media (max-width: 600px) {
+  .md-header__option .md-icon::before {
+    font-size: 1.3rem;
+  }
+}
 
 /* =========================================
-   UNIFIED HEADER + NAVIGATION TABS
+   4. UNIFIED HEADER AND NAVIGATION TABS
    ========================================= */
 
-:root {
-  --alkanmuri-header: #1d795b;
-}
-
-/* Main header */
-.md-header {
-  background-color: var(--alkanmuri-header) !important;
-  box-shadow: none !important;
-  border-bottom: none !important;
-}
-
-/* Navigation tabs */
+/* Use one solid green across both navigation levels */
+.md-header,
+.md-header--shadow,
 .md-tabs {
-  background-color: var(--alkanmuri-header) !important;
+  background: var(--alkanmuri-header) !important;
+  background-image: none !important;
   box-shadow: none !important;
-  border-top: none !important;
+  border: 0 !important;
 }
 
-/* Remove visible separation */
-.md-header + .md-tabs {
-  border-top: 0 !important;
-  margin-top: 0 !important;
-}
-
-/* Keep the same background when scrolling */
-.md-header--shadow {
-  box-shadow: none !important;
-}
-
-/* Avoid unwanted background on the tab container */
+/* Keep internal header and tab surfaces transparent */
+.md-header__inner,
+.md-header__title,
+.md-tabs__inner,
 .md-tabs__list,
 .md-tabs__item {
   background: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+/* Remove decorative separators without altering layout */
+.md-header::before,
+.md-header::after,
+.md-tabs::before,
+.md-tabs::after {
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+/* =========================================
+   5. ACCESSIBILITY
+   ========================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  .narumi-hero-image {
+    transition: none !important;
+  }
 }

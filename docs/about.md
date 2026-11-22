@@ -127,16 +127,17 @@
   <div class="hero-images">
 
     <img
+      src="/alvin-beyond/JPG_VID/WhatsApp%20Image%202026-11-21%20at%2018.44.50.jpeg"
+      alt="Outdoor activities"
+      loading="lazy"
+    />
+    <img
       src="/alvin-beyond/JPG_VID/sail1.jpeg"
       alt="Sailing"
       loading="lazy"
     />
 
-    <img
-      src="/alvin-beyond/JPG_VID/WhatsApp%20Image%202026-11-21%20at%2018.44.50.jpeg"
-      alt="Outdoor activities"
-      loading="lazy"
-    />
+
 
   </div>
 

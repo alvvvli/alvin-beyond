@@ -20,3 +20,43 @@
   line-height: 1;
   color: inherit;
 }
+
+
+/* =========================================
+   UNIFIED HEADER + NAVIGATION TABS
+   ========================================= */
+
+:root {
+  --alkanmuri-header: #1d795b;
+}
+
+/* Main header */
+.md-header {
+  background-color: var(--alkanmuri-header) !important;
+  box-shadow: none !important;
+  border-bottom: none !important;
+}
+
+/* Navigation tabs */
+.md-tabs {
+  background-color: var(--alkanmuri-header) !important;
+  box-shadow: none !important;
+  border-top: none !important;
+}
+
+/* Remove visible separation */
+.md-header + .md-tabs {
+  border-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* Keep the same background when scrolling */
+.md-header--shadow {
+  box-shadow: none !important;
+}
+
+/* Avoid unwanted background on the tab container */
+.md-tabs__list,
+.md-tabs__item {
+  background: transparent !important;
+}

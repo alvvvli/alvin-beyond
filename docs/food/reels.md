@@ -11,6 +11,12 @@ A collection of food discoveries, restaurants, cafés and memorable meals captur
 
   <div class="reel-card">
     <blockquote class="instagram-media"
+      data-instgrm-permalink="https://www.instagram.com/reel/DgKzVajvka1/"
+      data-instgrm-version="14"></blockquote>
+  </div>
+  
+  <div class="reel-card">
+    <blockquote class="instagram-media"
       data-instgrm-permalink="https://www.instagram.com/reel/DfmwRqjPl2h/"
       data-instgrm-version="14"></blockquote>
   </div>

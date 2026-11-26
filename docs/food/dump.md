@@ -1,9 +1,5 @@
 # 🔥Food Dump
 
-A photographic record of meals, snacks, cafés, street food and occasional discoveries along the way.
-
-No rankings, reviews or particular order of importance — just a growing archive of things I've tried.
-
 <div class="food-controls">
   <span id="food-count">Loading archive...</span>
 

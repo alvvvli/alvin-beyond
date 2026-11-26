@@ -1,8 +1,6 @@
 
 # 🍽️ Food Reels
 
-A collection of food discoveries, restaurants, cafés and memorable meals captured along the way.
-
 <div class="reels-gallery">
 
   <div class="reel-card">

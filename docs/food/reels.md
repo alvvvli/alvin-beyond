@@ -3,10 +3,6 @@
 
 A collection of food discoveries, restaurants, cafés and memorable meals captured along the way.
 
-<div class="reels-header">
-  <span>9 reels · Instagram archive</span>
-</div>
-
 <div class="reels-gallery">
 
   <div class="reel-card">

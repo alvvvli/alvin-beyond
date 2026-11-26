@@ -1,12 +1,6 @@
 
 # 🏁 Flagship Event Reels
 
-A collection of memorable occasions across motorsport, live music, sport, culture and international events.
-
-<div class="reels-header">
-  <span>5 reels · Instagram archive</span>
-</div>
-
 <div class="reels-gallery">
 
   <div class="reel-card">

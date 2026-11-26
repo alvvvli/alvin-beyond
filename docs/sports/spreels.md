@@ -1,12 +1,6 @@
 
 # ⚽ Sports Reels
 
-A collection of sporting activities, matches and moments captured along the way.
-
-<div class="reels-header">
-  <span>4 reels · Instagram archive</span>
-</div>
-
 <div class="reels-gallery">
 
   <div class="reel-card">
